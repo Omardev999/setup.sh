@@ -19,7 +19,7 @@ sudo apt install firefox-esr -y
 sudo apt-get  install npm -y
 
 # Instalar NVM
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
 # Cargar NVM en la sesión actual
 source ~/.nvm/nvm.sh
