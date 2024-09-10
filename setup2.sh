@@ -6,17 +6,7 @@ sudo apt-get update -y
 # Realizar una actualización completa del sistema
 sudo apt-get full-upgrade -y
 
-# Instalar una terminal nueva
-sudo apt-get install terminator -y
-
-# Instalar net-tools
-sudo apt-get install net-tools -y
-
-# Instalar Firefox ESR
-sudo apt install firefox-esr -y
-
-# Instalar npm
-sudo apt-get  install npm -y
+sudo apt-get install wget curl net-tools firefox-esr tilix -y
 
 # Instalar NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
